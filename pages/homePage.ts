@@ -26,8 +26,6 @@ export class HomePage {
 
   async openLoginModal() {
     await this.signInButton.click();
-    await expect(this.loginTabButton).toBeVisible();
-    await this.loginTabButton.click();
-    await this.page.waitForTimeout(500);
+    await expect(this.page.locator('.modal-content .modal-title')).toHaveText('Log in');
   }
 }

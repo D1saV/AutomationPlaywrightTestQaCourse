@@ -1,0 +1,83 @@
+{
+  "cookies": [
+    {
+      "name": "YSC",
+      "value": "bBGY3WtVWCw",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://forstudy.space",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "value": "CN-9w_GUwduWUBDeqbnG0PeQAxjeqbnG0PeQAw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1778881035.986708,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://forstudy.space",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "Gunvz4WG__I",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1778881035.986782,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://forstudy.space",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "VISITOR_PRIVACY_METADATA",
+      "value": "CgJVQRIEGgAgUw%3D%3D",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1778881035.986819,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://forstudy.space",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "NID",
+      "value": "526=dIFPep6Zcdl3jBsPIXWPiY_xabB-BFxjb5JaXBH9zhb5PUWinMFuaZ4hJA53vbIeZOW0rZSSAnbagDkOqsFSaZMq67sxRv1y84X3xUvsFiXTi6pFLHKDmer3mYssCsnDYPTxM_CD1_GHWwVTVGAJAr_9962s_KPp7Ldq21y6FceZD-JHq4A5tesVjwCRDWvA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1779140236.490261,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "s%3ABLNEfew0bhLdPWnKHDgz_fdXexQORAwZ.xUwWjsRi64nV9VqwekMmPcO9JHjr1l%2BL2PtCcr9d72A",
+      "domain": ".forstudy.space",
+      "path": "/",
+      "expires": 1763415437.274017,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.youtube.com",
+      "localStorage": [
+        {
+          "name": "ytidb::LAST_RESULT_ENTRY_KEY",
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1765921036313,\"creation\":1763329036313}"
+        }
+      ]
+    }
+  ]
+}
