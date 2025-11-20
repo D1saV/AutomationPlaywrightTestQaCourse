@@ -6,7 +6,7 @@ export class LoginModalPage {
   readonly modalTitle: Locator;
   readonly emailInput: Locator;
   readonly passwordInput: Locator;
-  readonly loginButton: Locator;
+  readonly loginTabButton: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -14,7 +14,7 @@ export class LoginModalPage {
     this.modalTitle = this.modal.locator('.modal-title');
     this.emailInput = this.modal.locator('#signinEmail');
     this.passwordInput = this.modal.locator('#signinPassword');
-    this.loginButton = this.modal.locator('.btn.btn-primary', { hasText: 'Login' });
+    this.loginTabButton = this.modal.locator('.btn.btn-primary', { hasText: 'Login' });
   }
 
   async expectVisible() {
@@ -25,6 +25,6 @@ export class LoginModalPage {
   async login(email: string, password: string) {
     await this.emailInput.fill(email);
     await this.passwordInput.fill(password);
-    await this.loginButton.click();
+    await this.loginTabButton.click();
   }
 }
